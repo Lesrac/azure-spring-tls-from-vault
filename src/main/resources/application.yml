@@ -1,0 +1,16 @@
+
+server:
+  ssl:
+    key-alias: mycert
+    key-store-type: AzureKeyVault
+    trust-store-type: AzureKeyVault
+  port: 8443
+azure:
+  keyvault:
+    uri: https://epdkv2.vault.azure.net/
+#spring:
+#  cloud:
+#    azure:
+#      keyvault:
+#        secret:
+#          endpoint: https://epdkv2.vault.azure.net/
